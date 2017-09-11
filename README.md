@@ -6,13 +6,17 @@
 
 #### Usage : 
 
-Clone this repo in /home/user/bin (or change the scripts paths accordingly)
+Clone this repo in /home/user/bin (or change the scripts variables accordingly)
 
-Set on the bottom of the script the keywords you want to be notified of (typically, an Ansible playbook name)
+Set the keywords you want to be notified of (typically, an Ansible playbook name) on the bottom of the script
 
 Run ansilink :
 
     ./ansilink.sh
+
+Shutdown :
+
+    killall ansilink.sh
 
 #### Artwork credits
 
